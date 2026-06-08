@@ -5,7 +5,7 @@
 package-mode = false
 requires-poetry = ">=2.0.0"
 solver.min-release-age = 1
-poetry config solver.min-release-age-exclude = "postgresql-charms-single-kernel"
+solver.min-release-age-exclude = "postgresql-charms-single-kernel"
 
 [tool.poetry.dependencies]
 python = "^3.10"
