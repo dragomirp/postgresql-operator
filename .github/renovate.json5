@@ -12,6 +12,10 @@
   ],
   packageRules: [
     {
+      "matchDatasources": ["pypi"],
+      "minimumReleaseAge": "1 day"
+    },
+    {
       matchPackageNames: [
         'pydantic',
       ],
